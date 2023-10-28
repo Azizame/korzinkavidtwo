@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/splide-4.1.3/dist/css/splide.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="nav">
+      <div class="container">
+        <nav>
+          <div class="justify-content-between row">
+            <div class="exit d-flex align-items-center"><a href=""><img src="/svg/exit.svg" alt=""></a></div>
+            <div class="col-lg-10 col-md-4 d-flex justify-content-lg-center nav_left">
+              <div class="col-7 d-flex justify-content-between nav_main">
+                <p class="d-flex justify-content-between align-items-center">Акции</p>
+                <p class="d-flex justify-content-between align-items-center">Магазины</p>
+                <!-- <p>Покупателям <img src="/svg/strelka.png" alt="" /></p> -->
+                <div class="btn-group">
+                  <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Покупателям
+                  </button>
+                  <ul class="dropdown-menu">
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Как оформить заказ</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Доставка</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Способы оплаты</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Бонусная программа</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Узнать статус заказа</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Обмен возврат гарантия</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Кредиты</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Сервисные центры</a></li>
+                    </div>
+                    <div class="d-flex"><img src="/svg/dropdownicon.svg" alt="">
+                      <li><a href="">Политика конфиденциальности</a></li>
+                    </div>
+                  </ul>
+                </div>
+                <p class="d-flex justify-content-between align-items-center">Юридическим лицам</p>
+                <div class="logo"><img src="/svg/logo.svg" alt=""></div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 d-flex align-items-center justify-content-end  phone_widht">
+              <img src="/svg/phone.svg" alt="" />
+              <p>+7 000 000 000</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="row-cols-lg-auto row-cols-md-auto d-flex  flex_header mt-3">
+          <div class="col-lg-3 icon_header col-md-1 d-flex justify-content-between align-items-center">
+            <div class="logo"><img src="/svg/logo.svg" alt="" /></div>
+            <button class="d-flex justify-content-center align-items-center">
+              <img src="/svg/menuicon.svg" alt="" />
+              <h5>Каталог</h5>
+            </button>
+          </div>
+          <div class="col-lg-9 col-md-11 width_search d-flex justify-content-between">
+            <div class="search col-lg-6 col-md-12 d-flex">
+              <div class="photo col-lg-1 d-flex justify-content-center align-items-center">
+                <img src="/svg/serach.svg" alt="" />
+              </div>
+              <input type="text" placeholder="Поиск по каталогу" />
+            </div>
+            <div class="headermenu col-md col-lg-5 d-lg-flex justify-content-between align-items-center">
+              <p class="d-flex justify-content-between align-items-center">
+                <img src="/svg/icon1.svg" alt=""  class="logo-img"/> <a href="">Сравнить</a>
+              </p>
+              <p class="d-flex justify-content-between align-items-center">
+                <img src="/svg/icon2.svg" alt="" /> <a href="">Избранное</a>
+              </p>
+              <div class="position-relative d-flex">
+                <div class="count d-flex justify-content-center align-items-center">
+                  0
+                </div>
+                <p class="d-flex justify-content-between align-items-center">
+                  <img src="/svg/korzinka.svg" alt="" /> <a href="">Корзина</a>
+                </p>
+              </div>
+              <p class="d-flex justify-content-between align-items-center">
+              <div>
+                <p type="button" class="d-flex hover" data-bs-toggle="modal" style="color: yellow;" data-bs-target="#exampleModal"><img src="/svg/person.svg" alt="" /> Войти</p>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="navigation mt-lg-4">
+          <p class="mt-lg-3">Корзина <b>3 товара</b></p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="items row">
+          <div class="item_left col-lg-9 col-md-12">
+            <div class="item_header d-flex justify-content-between">
+              <div class="check_box d-flex gap-2"><label class="main_check">
+                  <input type="checkbox" />
+                  <span class="geekmark"></span>
+                </label>
+                <p>Выбрать все</p>
+              </div>
+              <b>Удалить выбранные</b>
+            </div>
+            <div class="item__box position-relative">
+              <div class="checkk gap-2 align-items-center d-flex position-absolute">
+                <label class="main_check">
+                  <input type="checkbox" />
+                  <span class="geekmark"></span>
+                </label>
+              </div>
+              <div class="header d-flex">
+                <div class="img"><img src="/svg/imgkorzina.jpg" alt=""></div>
+                <div class="rastlange_div d-flex w-100 justify-content-between">
+                  <p style="font-weight: 700;">14" Ноутбук IRBIS NB283 серый</p>
+                  <div class="likes">
+                    <button class="heart_icon">
+                      <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                          stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                    <button class="delete">
+                      <img src="/svg/delete.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="plus_minus">
+                <div class="dome d-flex justify-content-between w-100">
+                  <div class="calc d-flex align-items-center">
+                    <button class="minus"><img src="/svg/minus.svg" alt=""></button>
+                    <div class="count"><p>1</p></div>
+                    <button class="plus"><img src="/svg/plus.svg" alt=""></button>
+                  </div>
+                  <div class="sum"><p>17 699 ₽</p></div>
+                </div>
+                <p class="end">В наличии: <span>130 магазинах</span></p>
+              </div>
+             <div class="buttons">
+              <p>Дополнительная гарантия:</p>
+              <div class="btns d-flex">
+                <button class="d-flex active">Нет 0 ₽</button>
+                <button class="d-flex">+12 мес. 2 331 ₽ <div class="xit d-flex justify-content-center align-items-center">Хит</div></button>
+                <button class="d-flex">+24 мес. 3 331 ₽</button>
+              </div>
+             </div>
+             <p>Аксессуары:</p>
+             <span>смотреть все</span>
+             <div class="cars d-flex">
+              <div class="car__box d-flex flex-wrap">
+                <p>Мышь беспроводная DEXP WM-903BL черный</p>
+                <div class="img d-flex align-items-center"><img src="/svg/carmishka.jpg" alt=""></div>
+                <button>
+                  <img src="/svg/korzina.svg" alt="">
+                  17 699 ₽
+                </button>
+              </div>
+              <div class="car__box d-flex flex-wrap">
+                <p>Мышь беспроводная DEXP WM-903BL черный</p>
+                <div class="img d-flex align-items-center"><img src="/svg/carmishka.jpg" alt=""></div>
+                <button>
+                  <img src="/svg/korzina.svg" alt="">
+                  17 699 ₽
+                </button>
+              </div>
+             </div>
+            </div>
+            <div class="item__box position-relative">
+              <div class="checkk gap-2 align-items-center d-flex position-absolute">
+                <label class="main_check">
+                  <input type="checkbox" />
+                  <span class="geekmark"></span>
+                </label>
+              </div>
+              <div class="header d-flex">
+                <div class="img"><img src="/svg/imgkorzina.jpg" alt=""></div>
+                <div class="rastlange_div d-flex w-100 justify-content-between">
+                  <p style="font-weight: 700;">14" Ноутбук IRBIS NB283 серый</p>
+                  <div class="likes">
+                    <button class="heart_icon ">
+                      <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                          stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                    <button class="delete">
+                      <img src="/svg/delete.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="plus_minus">
+                <div class="dome d-flex justify-content-between w-100">
+                  <div class="calc d-flex align-items-center">
+                    <button class="minus"><img src="/svg/minus.svg" alt=""></button>
+                    <div class="count"><p>1</p></div>
+                    <button class="plus"><img src="/svg/plus.svg" alt=""></button>
+                  </div>
+                  <div class="sum"><p>17 699 ₽</p></div>
+                </div>
+                <p class="end">В наличии: <span>130 магазинах</span></p>
+              </div>
+             <div class="buttons">
+              <p>Дополнительная гарантия:</p>
+              <div class="btns d-flex">
+                <button class="d-flex active">Нет 0 ₽</button>
+                <button class="d-flex">+12 мес. 2 331 ₽ <div class="xit d-flex justify-content-center align-items-center">Хит</div></button>
+                <button class="d-flex">+24 мес. 3 331 ₽</button>
+              </div>
+             </div>
+             <p>Аксессуары:</p>
+             <span>смотреть все</span>
+             <div class="cars d-flex">
+              <div class="car__box d-flex flex-wrap">
+                <p>Мышь беспроводная DEXP WM-903BL черный</p>
+                <div class="img d-flex align-items-center"><img src="/svg/carmishka.jpg" alt=""></div>
+                <button>
+                  <img src="/svg/korzina.svg" alt="">
+                  17 699 ₽
+                </button>
+              </div>
+              <div class="car__box d-flex flex-wrap">
+                <p>Мышь беспроводная DEXP WM-903BL черный</p>
+                <div class="img d-flex align-items-center"><img src="/svg/carmishka.jpg" alt=""></div>
+                <button>
+                  <img src="/svg/korzina.svg" alt="">
+                  17 699 ₽
+                </button>
+              </div>
+             </div>
+            </div>
+            <div class="item__box position-relative">
+              <div class="checkk gap-2 align-items-center d-flex position-absolute">
+                <label class="main_check">
+                  <input type="checkbox" />
+                  <span class="geekmark"></span>
+                </label>
+              </div>
+              <div class="header d-flex">
+                <div class="img"><img src="/svg/imgkorzina.jpg" alt=""></div>
+                <div class="rastlange_div d-flex w-100 justify-content-between">
+                  <p style="font-weight: 700;">14" Ноутбук IRBIS NB283 серый</p>
+                  <div class="likes">
+                    <button class="heart_icon ">
+                      <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                          stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                    <button class="delete">
+                      <img src="/svg/delete.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="plus_minus">
+                <div class="dome d-flex justify-content-between w-100">
+                  <div class="calc d-flex align-items-center">
+                    <button class="minus"><img src="/svg/minus.svg" alt=""></button>
+                    <div class="count"><p>1</p></div>
+                    <button class="plus"><img src="/svg/plus.svg" alt=""></button>
+                  </div>
+                  <div class="sum"><p>17 699 ₽</p></div>
+                </div>
+                <p class="end">В наличии: <span>130 магазинах</span></p>
+              </div>
+             <div class="buttons">
+              <p>Дополнительная гарантия:</p>
+              <div class="btns d-flex">
+                <button class="d-flex active">Нет 0 ₽</button>
+                <button class="d-flex">+12 мес. 2 331 ₽ <div class="xit d-flex justify-content-center align-items-center">Хит</div></button>
+                <button class="d-flex">+24 мес. 3 331 ₽</button>
+              </div>
+             </div>
+             <p>Аксессуары:</p>
+             <span>смотреть все</span>
+             <div class="cars d-flex">
+              <div class="car__box d-flex flex-wrap">
+                <p>Мышь беспроводная DEXP WM-903BL черный</p>
+                <div class="img d-flex align-items-center"><img src="/svg/carmishka.jpg" alt=""></div>
+                <button>
+                  <img src="/svg/korzina.svg" alt="">
+                  17 699 ₽
+                </button>
+              </div>
+              <div class="car__box d-flex flex-wrap">
+                <p>Мышь беспроводная DEXP WM-903BL черный</p>
+                <div class="img d-flex align-items-center"><img src="/svg/carmishka.jpg" alt=""></div>
+                <button>
+                  <img src="/svg/korzina.svg" alt="">
+                  17 699 ₽
+                </button>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="container col-lg-3">
+            <div class="item_rigth">
+              <div class="title">
+                <p class="" style="font-weight: 700;">Условия заказа</p>
+              </div>
+              <div class="nates">
+                <div class="nate_nth">
+                  <div class="base d-flex w-100 justify-content-between">
+                    <p class="w-75">Получить товар со склада</p>
+                    <img src="/svg/undov.svg" alt="">
+                  </div>
+                  <span style="font-weight: 400;">условия получения заказа могут измениться</span>
+    
+                </div>
+                <li class="tg-list-item">
+                  <input class="tgl tgl-light" id="cb1" type="checkbox"/>
+                  <label class="tgl-btn" for="cb1"></label>
+                </li>
+              </div>
+              <div class="bottom">
+                <p>Итого:</p>
+                <div class="p d-flex justify-content-between">
+                  <p>3 товара</p>
+                  <p>54 897 ₽</p>
+                </div>
+                <button>Перейти к оформлению</button>
+                <p>В наличии: <span>в 4 магазинах</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider_box">
+      <div class="container">
+        <div class="title">
+          <p>Вы недавно смотрели</p>
+        </div>
+        <div class="splide items_splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="cardbox position-relative">
+                  <div class="closee position-absolute"><img src="/svg/close.svg" alt=""></div>
+                  <div class="img d-flex justify-content-center"><img src="/svg/mishka.jpg" alt=""></div>
+                  <p class="data-title">Мышь беспроводная DEXP WM-903BL черный</p>
+                  <div class="rating gap-3 align-items-center d-flex">
+                    <div class="checkk gap-2 align-items-center d-flex">
+                      <label class="main_check">
+                        <input type="checkbox" />
+                        <span class="geekmark"></span>
+                      </label>
+                      <span>Сравнить</span>
+                    </div>
+                    <div class="stars gap-2 align-items-center d-flex">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div class="count gap-2 align-items-center d-flex"><span>152</span></div>
+                  </div>
+                  <div class="buy align-items-center justify-content-between d-flex">
+                    <div class="price  gap-2">
+                      <p>17 699 ₽</p>
+                      <div class="kredit">
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="likes d-flex position-relative">
+                      <button class="heart_icon ">
+                        <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                            stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <button class="btn_korzina">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M5.61602 5.7879H25.5309L23.0416 16.5751H8.10539M23.0416 19.8943H8.93517L4.78624 2.46875H2.29688"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M21.3822 24.8738C22.2988 24.8738 23.0418 24.1308 23.0418 23.2143C23.0418 22.2977 22.2988 21.5547 21.3822 21.5547C20.4657 21.5547 19.7227 22.2977 19.7227 23.2143C19.7227 24.1308 20.4657 24.8738 21.3822 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M10.5951 24.8738C11.5117 24.8738 12.2547 24.1308 12.2547 23.2143C12.2547 22.2977 11.5117 21.5547 10.5951 21.5547C9.67856 21.5547 8.93555 22.2977 8.93555 23.2143C8.93555 24.1308 9.67856 24.8738 10.5951 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="korzina_hover position-absolute d-flex justify-content-center align-items-center">
+                          Перейти в корзину
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="cardbox position-relative">
+                  <div class="closee position-absolute"><img src="/svg/close.svg" alt=""></div>
+                  <div class="img d-flex justify-content-center"><img src="/svg/compbg.svg" alt=""></div>
+                  <p>14.1" Ноутбук DEXP Aquilon серебристый [Full HD (1920x1080), IPS, Intel Celeron N4020, ядра: 2 х
+                    1.1 ГГц,...</p>
+                  <div class="rating gap-3 align-items-center d-flex">
+                    <div class="checkk gap-2 align-items-center d-flex">
+                      <label class="main_check">
+                        <input type="checkbox" />
+                        <span class="geekmark"></span>
+                      </label>
+                      <span>Сравнить</span>
+                    </div>
+                    <div class="stars gap-2 align-items-center d-flex">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div class="count gap-2 align-items-center d-flex"><span>152</span></div>
+                  </div>
+                  <div class="buy align-items-center justify-content-between d-flex">
+                    <div class="price  gap-2">
+                      <p>17 699 ₽</p>
+                      <div class="kredit">
+                        <p>От 1 225 / мес.</p>
+                      </div>
+                    </div>
+                    <div class="likes d-flex position-relative">
+                      <button class="heart_icon ">
+                        <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                            stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <button class="btn_korzina">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M5.61602 5.7879H25.5309L23.0416 16.5751H8.10539M23.0416 19.8943H8.93517L4.78624 2.46875H2.29688"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M21.3822 24.8738C22.2988 24.8738 23.0418 24.1308 23.0418 23.2143C23.0418 22.2977 22.2988 21.5547 21.3822 21.5547C20.4657 21.5547 19.7227 22.2977 19.7227 23.2143C19.7227 24.1308 20.4657 24.8738 21.3822 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M10.5951 24.8738C11.5117 24.8738 12.2547 24.1308 12.2547 23.2143C12.2547 22.2977 11.5117 21.5547 10.5951 21.5547C9.67856 21.5547 8.93555 22.2977 8.93555 23.2143C8.93555 24.1308 9.67856 24.8738 10.5951 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="korzina_hover position-absolute d-flex justify-content-center align-items-center">
+                          Перейти в корзину
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="cardbox position-relative">
+                  <div class="closee position-absolute"><img src="/svg/close.svg" alt=""></div>
+                  <div class="img d-flex justify-content-center"><img src="/svg/compbg.svg" alt=""></div>
+                  <p>14.1" Ноутбук DEXP Aquilon серебристый [Full HD (1920x1080), IPS, Intel Celeron N4020, ядра: 2 х
+                    1.1 ГГц,...</p>
+                  <div class="rating gap-3 align-items-center d-flex">
+                    <div class="checkk gap-2 align-items-center d-flex">
+                      <label class="main_check">
+                        <input type="checkbox" />
+                        <span class="geekmark"></span>
+                      </label>
+                      <span>Сравнить</span>
+                    </div>
+                    <div class="stars gap-2 align-items-center d-flex">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div class="count gap-2 align-items-center d-flex"><span>152</span></div>
+                  </div>
+                  <div class="buy align-items-center justify-content-between d-flex">
+                    <div class="price  gap-2">
+                      <p>17 699 ₽</p>
+                      <div class="kredit">
+                        <p>От 1 225 / мес.</p>
+                      </div>
+                    </div>
+                    <div class="likes d-flex position-relative">
+                      <button class="heart_icon ">
+                        <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                            stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <button class="btn_korzina"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M5.61602 5.7879H25.5309L23.0416 16.5751H8.10539M23.0416 19.8943H8.93517L4.78624 2.46875H2.29688"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M21.3822 24.8738C22.2988 24.8738 23.0418 24.1308 23.0418 23.2143C23.0418 22.2977 22.2988 21.5547 21.3822 21.5547C20.4657 21.5547 19.7227 22.2977 19.7227 23.2143C19.7227 24.1308 20.4657 24.8738 21.3822 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M10.5951 24.8738C11.5117 24.8738 12.2547 24.1308 12.2547 23.2143C12.2547 22.2977 11.5117 21.5547 10.5951 21.5547C9.67856 21.5547 8.93555 22.2977 8.93555 23.2143C8.93555 24.1308 9.67856 24.8738 10.5951 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="korzina_hover position-absolute d-flex justify-content-center align-items-center">
+                          Перейти в корзину
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="cardbox position-relative">
+                  <div class="closee position-absolute"><img src="/svg/close.svg" alt=""></div>
+                  <div class="img d-flex justify-content-center"><img src="/svg/compbg.svg" alt=""></div>
+                  <p>14.1" Ноутбук DEXP Aquilon серебристый [Full HD (1920x1080), IPS, Intel Celeron N4020, ядра: 2 х
+                    1.1 ГГц,...</p>
+                  <div class="rating gap-3 align-items-center d-flex">
+                    <div class="checkk gap-2 align-items-center d-flex">
+                      <label class="main_check">
+                        <input type="checkbox" />
+                        <span class="geekmark"></span>
+                      </label>
+                      <span>Сравнить</span>
+                    </div>
+                    <div class="stars gap-2 align-items-center d-flex">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div class="count gap-2 align-items-center d-flex"><span>152</span></div>
+                  </div>
+                  <div class="buy align-items-center justify-content-between d-flex">
+                    <div class="price  gap-2">
+                      <p>17 699 ₽</p>
+                      <div class="kredit">
+                        <p>От 1 225 / мес.</p>
+                      </div>
+                    </div>
+                    <div class="likes d-flex position-relative">
+                      <button class="heart_icon ">
+                        <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                            stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <button class="btn_korzina">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M5.61602 5.7879H25.5309L23.0416 16.5751H8.10539M23.0416 19.8943H8.93517L4.78624 2.46875H2.29688"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M21.3822 24.8738C22.2988 24.8738 23.0418 24.1308 23.0418 23.2143C23.0418 22.2977 22.2988 21.5547 21.3822 21.5547C20.4657 21.5547 19.7227 22.2977 19.7227 23.2143C19.7227 24.1308 20.4657 24.8738 21.3822 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M10.5951 24.8738C11.5117 24.8738 12.2547 24.1308 12.2547 23.2143C12.2547 22.2977 11.5117 21.5547 10.5951 21.5547C9.67856 21.5547 8.93555 22.2977 8.93555 23.2143C8.93555 24.1308 9.67856 24.8738 10.5951 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="korzina_hover position-absolute d-flex justify-content-center align-items-center">
+                          Перейти в корзину
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide">
+                <div class="cardbox position-relative">
+                  <div class="closee position-absolute"><img src="/svg/close.svg" alt=""></div>
+                  <div class="img d-flex justify-content-center"><img src="/svg/compbg.svg" alt=""></div>
+                  <p>14.1" Ноутбук DEXP Aquilon серебристый [Full HD (1920x1080), IPS, Intel Celeron N4020, ядра: 2 х
+                    1.1 ГГц,...</p>
+                  <div class="rating gap-3 align-items-center d-flex">
+                    <div class="checkk gap-2 align-items-center d-flex">
+                      <label class="main_check">
+                        <input type="checkbox" />
+                        <span class="geekmark"></span>
+                      </label>
+                      <span>Сравнить</span>
+                    </div>
+                    <div class="stars gap-2 align-items-center d-flex">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
+                    <div class="count gap-2 align-items-center d-flex"><span>152</span></div>
+                  </div>
+                  <div class="buy align-items-center justify-content-between d-flex">
+                    <div class="price  gap-2">
+                      <p>17 699 ₽</p>
+                      <div class="kredit">
+                        <p>От 1 225 / мес.</p>
+                      </div>
+                    </div>
+                    <div class="likes d-flex position-relative">
+                      <button class="heart_icon ">
+                        <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8.875 2C5.07813 2 2 4.86955 2 8.40914C2 14.8183 10.125 20.6448 14.5 22C18.875 20.6448 27 14.8183 27 8.40914C27 4.86955 23.9219 2 20.125 2C17.8 2 15.7438 3.07615 14.5 4.7233C13.8661 3.88149 13.0239 3.19448 12.0447 2.72044C11.0656 2.24639 9.97831 1.99927 8.875 2Z"
+                            stroke="#FCEE0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </button>
+                      <button class="btn_korzina"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M5.61602 5.7879H25.5309L23.0416 16.5751H8.10539M23.0416 19.8943H8.93517L4.78624 2.46875H2.29688"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M21.3822 24.8738C22.2988 24.8738 23.0418 24.1308 23.0418 23.2143C23.0418 22.2977 22.2988 21.5547 21.3822 21.5547C20.4657 21.5547 19.7227 22.2977 19.7227 23.2143C19.7227 24.1308 20.4657 24.8738 21.3822 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M10.5951 24.8738C11.5117 24.8738 12.2547 24.1308 12.2547 23.2143C12.2547 22.2977 11.5117 21.5547 10.5951 21.5547C9.67856 21.5547 8.93555 22.2977 8.93555 23.2143C8.93555 24.1308 9.67856 24.8738 10.5951 24.8738Z"
+                            stroke="#FCEE0A" stroke-width="2.48936" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <div class="korzina_hover position-absolute d-flex justify-content-center align-items-center">
+                          Перейти в корзину
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer_top col-lg-12 d-flex justify-content-md-between">
+            <div class="logo col-lg-8 "><img src="/svg/logo.svg" alt="" /></div>
+            <div class="internet d-flex col-lg-4 justify-content-between align-items-md-center">
+              <p class="">Мы в социальных сетях</p>
+              <div class="icon d-flex col-lg-4 justify-content-between">
+                <a href=""><img src="/svg/tg.svg" alt="" /></a>
+                <a href=""><img src="/svg/vk.svg" alt="" /></a>
+                <a href=""><img src="/svg/phonefut.svg" alt="" /></a>
+                <a href=""><img src="/svg/insta.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+            <div class="">
+              <div class="action row">
+                <div class="about_company col-lg-3 col-md-3">
+                  <div class="title"><span>Компания</span></div>
+                  <ul>
+                    <li><a href="">О компании</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Партнерам</a></li>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Политика конфиденциальности</a></li>
+                    <li><a href="">Персональные данные</a></li>
+                    <li><a href="">Правила продаж</a></li>
+                    <li><a href="">Правила пользования сайта</a></li>
+                    <li><a href="">Сервисныйе центры</a></li>
+                  </ul>
+                </div>
+                <div class="buyer col-lg-5 col-md-3 ">
+                  <div class="title"><span>Покупателям</span></div>
+                  <div class="d-flex justify-content-between foot-wrap  flex-lg-row-reverse">
+                    <ul>
+                      <li><a href="">Юридическим лицам</a></li>
+                      <li><a href="">Проверка счета</a></li>
+                      <li><a href="">Корпоративные отделы</a></li>
+                      <li><a href="">Подарочные карты</a></li>
+                      <li><a href="">Бонусная программа</a></li>
+                      <li><a href="">Помощь</a></li>
+                      <li><a href="">Обратная связь</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="">Как оформить заказ</a></li>
+                      <li><a href="">Способы оплаты</a></li>
+                      <li><a href="">Кредиты</a></li>
+                      <li><a href="">Доставка</a></li>
+                      <li><a href="">Статус заказа</a></li>
+                      <li><a href="">Обмен, возврат, гарантия</a></li>
+                      <li><a href="">Проверка статуса ремонта</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="connection col-lg-4 col-md-6">
+                  <div class="title"><span>Оставайтесь на связи</span></div>
+                  <div class="phone d-flex">
+                    <img src="/svg/phone.png" alt="" />
+                    <p>+7 000 000 000</p>
+                  </div>
+                  <p class="mt-4">Следите за новинками и акциями</p>
+                  <form class="mt-4 d-flex justify-content-between" action="">
+                    <input type="text" placeholder="E-mail" class="col-lg-8" />
+                    <button>Подписаться</button>
+                  </form>
+                  <p class="mt-4">
+                    Подписываясь на рассылку, вы соглашаетесь с условиями
+                    политики конфиденциальности и политики обработки
+                    персональных данных
+                  </p>
+                </div>
+              </div>
+              <div class="date">
+                <p>©2023 Все права защищены</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!--MODAL-->
+  <div class="modal fade" id="exampleModalsecond" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"><img type="button" data-bs-toggle="modal"
+              data-bs-target="#exampleModal" class="mt-3" href="" src="/svg/exit.png" alt=""> Войти с паролем</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form">
+              <input type="text" placeholder="Телефон или e-mail">
+              <img src="/svg/formicon.png" onclick="myAbout()" alt="">
+              <div class="about d-none" id="myAbout">
+                <p>Телефон в формате: 7 000 000 00 00</p>
+                <p>Email в формате: name@examle.ru</p>
+              </div>
+            </div>
+            <div class="form mt-4">
+              <input type="password" id="myInput" placeholder="Пароль">
+              <img onclick="myFunction()" src="/svg/eyes.png" alt="">
+
+            </div>
+            <div class="mt-4"><a class="mt-3" href="">Забыли пароль?</a></div>
+            <button class="position-relative testing" class="btn testing" data-text="BUY TICKETS" href="#">Получить
+              код <img class=" position-absolute" src="/svg/btnafter.svg" alt=""></button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Войти или зарегистрироватьсяe</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form">
+              <input type="text" placeholder="Телефон или e-mail">
+              <img src="/svg/formicon.png" alt="">
+              <div class="about">
+                <p>Телефон в формате: 7 000 000 00 00</p>
+                <p>Email в формате: name@examle.ru</p>
+              </div>
+            </div>
+            <button class="position-relative  testing" class="btn testing" data-text="BUY TICKETS">Получить код <img
+                class=" position-absolute" src="/svg/btnafter.svg" alt=""></button>
+          </form>
+          <p>Другие способы входа:</p>
+          <div>
+            <p type="button" data-bs-toggle="modal" style="color: black; font-weight: 700; text-decoration: underline;"
+              data-bs-target="#exampleModalsecond" class="mt-3" href="">Войти с паролем</p>
+          </div>
+          <p class="mt-4">Нажимая кнопку “Получить код”, вы соглашаетесь с условиями политики конфиденциальности</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/splide-4.1.3/dist/js/splide.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
