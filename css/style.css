@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -1002,7 +1003,34 @@ footer .footer_bottom .connection button {
     width: 146px;
   }
 }
+@media (min-width: 1101px) {
+  .exit.d-flex {
+    display: none !important;
+  }
+}
 @media (min-width: 992px) and (max-width: 1100px) {
+  footer .foot-wrap.flex-lg-row-reverse {
+    flex-direction: column !important;
+  }
+  .buyer.col-lg-5 {
+    flex: 0 0 auto;
+    width: 27.666667% !important;
+  }
+  footer .footer_bottom {
+    padding-top: 20px;
+    padding-bottom: 0 !important;
+  }
+  .items {
+    flex-direction: column;
+  }
+  .items .item_left.col-lg-9 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+  .items .container.col-lg-3 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
   .internet {
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -1430,4 +1458,169 @@ input[type=checkbox]::before {
   z-index: 1;
   top: 14px;
   right: 27px;
+}
+
+.modal-body a {
+  color: black !important;
+  font-weight: 700;
+  padding: 15px 0;
+  text-decoration: underline !important;
+  font-size: 20px !important;
+}
+
+.testingg {
+  display: block;
+  position: relative;
+  background: url("/svg/btnyellow.svg") no-repeat;
+  background-size: 100%;
+  border-radius: 0px !important;
+  transition: all 0.2s ease;
+}
+.testingg.bg::after {
+  content: "Отправить";
+}
+.testingg.bg::before {
+  content: "Отправить";
+}
+
+.testingg:before, .testingg:after {
+  content: "Получить код ";
+  position: absolute;
+  top: 20зч;
+  left: 0;
+  padding: 8px 0;
+  width: 100%;
+  -webkit-clip: rect(0px, 0px, 0px, 0px);
+  clip: rect(0px, 0px, 0px, 0px);
+  background: black;
+  color: rgb(252, 238, 10);
+}
+
+.testingg:before {
+  left: -3px;
+  top: 36px;
+  text-shadow: 2px 0 #fff;
+  box-shadow: 2px 0 #fff;
+}
+
+.testingg:after {
+  left: 2px;
+  bottom: 23px;
+  text-shadow: -1px 0 #fff;
+  box-shadow: -1px 0 #fff;
+}
+
+.testingg:hover:before {
+  animation: glitch-test 1.5s infinite linear alternate-reverse;
+}
+
+.testingg:hover:after {
+  animation: glitch-test 2s infinite linear alternate;
+}
+
+.testing {
+  display: block;
+  position: relative;
+  background: red;
+  background-size: 100%;
+  border-radius: 0px !important;
+  transition: all 0.2s ease;
+}
+.testing.bg::after {
+  content: "Отправить";
+}
+.testing.bg::before {
+  content: "Отправить";
+}
+
+.testing:before, .testing:after {
+  content: "Получить код ";
+  position: absolute;
+  top: 20зч;
+  left: 0;
+  padding: 8px 0;
+  width: 100%;
+  -webkit-clip: rect(0px, 0px, 0px, 0px);
+  clip: rect(0px, 0px, 0px, 0px);
+  background: black;
+  color: rgb(252, 238, 10);
+}
+
+.testing:before {
+  left: -3px;
+  top: 30px;
+  text-shadow: 2px 0 #fff;
+  box-shadow: 2px 0 #fff;
+}
+
+.testing:after {
+  left: 2px;
+  bottom: 18px;
+  text-shadow: -1px 0 #fff;
+  box-shadow: -1px 0 #fff;
+}
+
+.testing:hover:before {
+  animation: glitch-test 1.5s infinite linear alternate-reverse;
+}
+
+.testing:hover:after {
+  animation: glitch-test 2s infinite linear alternate;
+}
+
+@keyframes glitch-test {
+  0% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  5.88235% {
+    clip: rect(0px, 600px, 0px, 0px);
+  }
+  11.76471% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  17.64706% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  23.52941% {
+    clip: rect(100px, 600px, 100px, 0px);
+  }
+  29.41176% {
+    clip: rect(0px, 600px, 600px, 0px);
+  }
+  35.29412% {
+    clip: rect(100px, 600px, 0px, 0px);
+  }
+  41.17647% {
+    clip: rect(0px, 600px, 600px, 0px);
+  }
+  47.05882% {
+    clip: rect(100px, 600px, 0px, 0px);
+  }
+  52.94118% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  58.82353% {
+    clip: rect(100px, 450px, 100px, 0px);
+  }
+  64.70588% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  70.58824% {
+    clip: rect(100px, 450px, 100px, 0px);
+  }
+  76.47059% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  82.35294% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  88.23529% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  94.11765% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  100% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
 }/*# sourceMappingURL=style.css.map */
