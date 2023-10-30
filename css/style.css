@@ -52,6 +52,23 @@ a:hover {
   position: relative;
 }
 
+header {
+  width: 100%;
+  transition: 200ms ease-out 0s;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.903), transparent);
+  z-index: 111;
+}
+header.sticky {
+  position: fixed;
+  top: 0;
+  transition: 200ms ease-out 0s;
+  box-sizing: content-box !important;
+}
+
+section.first-m {
+  margin-top: 86px;
+}
+
 .main .nav nav {
   border-bottom: 3px solid rgb(252, 238, 10);
   margin-top: 15px;
@@ -645,6 +662,30 @@ footer .footer_bottom .connection button {
   }
 }
 @media (min-width: 768px) and (max-width: 1100px) {
+  header {
+    width: 100%;
+    transition: 200ms ease-out 0s;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.903), transparent);
+    z-index: 111;
+  }
+  header.sticky {
+    position: relative !important;
+    top: 0;
+    transition: 200ms ease-out 0s;
+    box-sizing: content-box !important;
+  }
+  section.first-m {
+    margin-top: 0;
+  }
+  .nav {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.903), transparent);
+    z-index: 111;
+  }
+  #header {
+    padding-top: 70px;
+  }
   footer .footer_bottom .connection input {
     width: 100%;
     margin-right: 20px;
@@ -792,6 +833,9 @@ footer .footer_bottom .connection button {
   .nav_main .logo img {
     width: 86px !important;
   }
+  #header {
+    padding-top: 55px;
+  }
   section .items .item_left .item__box .img img {
     width: 70px !important;
     height: 62px !important;
@@ -802,8 +846,37 @@ footer .footer_bottom .connection button {
   .nav_main .logo img {
     width: 100px !important;
   }
+  #header {
+    padding-top: 55px;
+  }
+}
+@media (min-width: 381px) and (max-width: 767px) {
+  #header {
+    padding-top: 70px;
+  }
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  header {
+    width: 100%;
+    transition: 200ms ease-out 0s;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.903), transparent);
+    z-index: 111;
+  }
+  header.sticky {
+    position: relative !important;
+    top: 0;
+    transition: 200ms ease-out 0s;
+    box-sizing: content-box !important;
+  }
+  section.first-m {
+    margin-top: 0;
+  }
+  .nav {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.903), transparent);
+    z-index: 111;
+  }
   .phone_widht {
     padding-left: 0 !important;
   }
